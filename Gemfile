@@ -18,6 +18,8 @@ gem 'sinatra-activerecord'
 # Adding Database elements
 gem 'pg'
 
+gem 'faker'
+
 # Adding rake for management
 gem 'rake'
 
