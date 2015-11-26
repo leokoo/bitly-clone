@@ -1,5 +1,12 @@
-header {
+@font-face {
+  font-family: "brandon-grotesque";
+  src: url('/font/brandon_reg.ttf') format('woff');
+}
 
+@font-face { 
+  font-family: "brandon-grotesque"; 
+  font-weight: bold; 
+  src: url('/font/brandon_bold.ttf');
 }
 
 body { 
@@ -19,10 +26,16 @@ body {
  margin-bottom: 30px;
 }
 
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+
 .container-pod {
   padding-top: 20px;
   padding-bottom: 32px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 ul, li {
@@ -87,6 +100,23 @@ padding: 0;
   box-shadow: 0 0 0 1px #e45212;
   margin-top: 0;
   margin-bottom: 0
+}
+
+.page-header-headline.flush-top {
+  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #61b3de;
+  text-shadow: none;
+  text-align: center;
+  margin: 0 0 8px 0
+}
+
+.page-header-description.flush-top.flush.bottom {
+  font-size: 14px;
 }
 
 footer {
