@@ -104,8 +104,8 @@ padding: 0;
 
 .page-header-headline.flush-top {
   font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 45px;
+  font-weight: 1200;
   font-style: normal;
   line-height: 28px;
   text-transform: uppercase;
@@ -117,6 +117,10 @@ padding: 0;
 
 .page-header-description.flush-top.flush.bottom {
   font-size: 14px;
+}
+
+#header-actions {
+
 }
 
 footer {
