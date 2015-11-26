@@ -5,18 +5,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="/css/application.css"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
 <body>
-	<h1>UNLEASH THE POWER OF THE LINK</h1>
-	<h3>Own, understand, and activate your best audience with Bitly.</h3>
-	<form action="/urls" method="post">
-		Shorten:
-		<input type ="text" name="user_input_url">
-		<input type ="submit" value="Submit">
-	</form>
+<header>
+	<div id="header-inner">
+		<h1 id="header-logo"><img src="/img/header-logo.png" height="43">
+			</h1>
+			<nav id="navigation">
+				<ul id="menu-header-menu">
+					<li><a href="#product tour">PRODUCT TOUR</a></li>
+					<li><a href="#resources">RESOURCES</a></li>
+					<li><a href="#partners">PARTNERS</a></li> 
+					<li><a href="signin">SIGN IN</a></li>
+					<li><a href="signup">SIGN UP</a></li>
+				</ul>
+			</nav>
 
+		<div id="header-actions">
+			<form action="/urls" method="post" id="form-header-link-shortener" class="link-shortener flush-bottom">
+			<input type ="text" name="user_input_url" placeholder="Paste a link to shorten it">
+			<button class="button button-primary" type ="submit">Shorten </button>
+		</form>
+		</div>
+		</p>
+	</div>
+</header>
+
+	<h1>UNLEASH THE POWER OF THE LINK</h1>
+	<h3>Own, understand, and activate your best audience with Bitly. Learn more -></h3>
 <h3>Listing the URLs</h3>
 <table>
   <tr>

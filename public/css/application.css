@@ -1,0 +1,83 @@
+header {
+
+}
+body { 
+  margin: 0;
+  background-color: rgba(130, 180, 230, 0.5);
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: normal;
+  font-style: normal;
+  color: #8f989d
+}
+ul, li {
+  padding: 0;
+  margin-top: 0;
+  display: inline;
+}
+
+a {
+  color: #ee6123;
+  float: left;
+  /*text-decoration: none*/
+  /*list-style: none;*/
+}
+a:hover {
+  color: #98370c;
+  text-decoration: underline
+}
+a:active {
+  color: #331204;
+  text-decoration: none
+}
+.button.button-primary {
+  background-color: transparent;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+  *border-width: 0;
+  border-width: 0;
+  border-color: none;
+  color: #fff;
+  text-shadow: none;
+  background-color: #ee6123;
+  background-image: -moz-linear-gradient(top, none, none);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(none), to(none));
+  background-image: -webkit-linear-gradient(top, none, none);
+  background-image: -o-linear-gradient(top, none, none);
+  background-image: linear-gradient(to bottom, none, none);
+  background-repeat: repeat-x;
+  -webkit-box-shadow: 0 0 0 1px #ee6123;
+  box-shadow: 0 0 0 1px #ee6123;
+  margin-top: 0;
+  margin-bottom: 0
+}
+.button.button-primary:hover {
+  background-color: transparent;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+  *border-width: 0;
+  border-width: 0;
+  border-color: none;
+  color: #fff;
+  text-shadow: none;
+  background-color: #e45212;
+  background-image: -moz-linear-gradient(top, none, none);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(none), to(none));
+  background-image: -webkit-linear-gradient(top, none, none);
+  background-image: -o-linear-gradient(top, none, none);
+  background-image: linear-gradient(to bottom, none, none);
+  background-repeat: repeat-x;
+  -webkit-box-shadow: 0 0 0 1px #e45212;
+  box-shadow: 0 0 0 1px #e45212;
+  margin-top: 0;
+  margin-bottom: 0
+}
+footer {
+	
+}
