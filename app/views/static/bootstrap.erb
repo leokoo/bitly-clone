@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<h1>UNLEASH THE POWER OF THE LINK</h1>
+<h3>Own, understand, and activate your best audience with Bitly.</h3>
+<form action="/urls" method="post">
+	Shorten:
+	<input type ="text" name="user_input_url">
+	<input type ="submit" value="Submit">
+</form>
+
+<h3>Listing the URLs</h3>
+<table>
+  <tr>
+    <th>Long URL</th>
+    <th>Shortened URL</th>
+    <th>Amount of clicks</th>
+    <th></th>
+  </tr>
+<% @urls.each do |url| %>
+	<tr>
+		<td><%= url.long_url%></td>
+		<td><a href="<%= url.shortened_url %>"><%= url.shortened_url %></a><td>
+		<td><%= url.counter %><td>
+	</tr>
+	<% end %>
+	</table>
+	
+</html>

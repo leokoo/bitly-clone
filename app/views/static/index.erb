@@ -1,9 +1,21 @@
-<h1>Welcome!</h1>
-<form action="/urls" method="post">
-	Shorten a url :
-	<input type ="text" name="user_input_url">
-	<input type ="submit" value="Submit">
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome to Leo's Bit.ly Clone!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body>
+	<h1>UNLEASH THE POWER OF THE LINK</h1>
+	<h3>Own, understand, and activate your best audience with Bitly.</h3>
+	<form action="/urls" method="post">
+		Shorten:
+		<input type ="text" name="user_input_url">
+		<input type ="submit" value="Submit">
+	</form>
 
 <h3>Listing the URLs</h3>
 <table>
@@ -20,4 +32,13 @@
 		<td><%= url.counter %><td>
 	</tr>
 	<% end %>
-	</table>
+</table>
+</body>
+
+<footer>
+  <p>Done by: Leo Koo, TechGarage.my</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer>
+
+</html>
