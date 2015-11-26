@@ -22,6 +22,7 @@ body {
 .container-pod {
   padding-top: 20px;
   padding-bottom: 32px;
+  margin: auto;
 }
 
 ul, li {
@@ -43,13 +44,18 @@ a:active {
   color: #331204;
   text-decoration: none
 }
+#link-shortener-url {
+  padding-left: 10px;
+}
 input    {
+font-size: 13px;
 width:220px;
 border: 1px solid #ee6123;
 height: 30px;
 -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+padding: 0;
 }
 .button.button-primary {
 	height: 30px;
@@ -57,7 +63,6 @@ box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   background-image: none;
   background-repeat: no-repeat;
   filter: none;
-  *border-width: 0;
   border-width: 0;
   border-color: none;
   color: #fff;
@@ -66,14 +71,13 @@ box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 0 0 1px #ee6123;
   box-shadow: 0 0 0 1px #ee6123;
   margin-top: 0;
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 .button.button-primary:hover {
   background-color: transparent;
   background-image: none;
   background-repeat: no-repeat;
   filter: none;
-  *border-width: 0;
   border-width: 0;
   border-color: none;
   color: #fff;
