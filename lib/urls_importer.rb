@@ -1,7 +1,6 @@
 require_relative '../config/environments/init'
 # require_relative '../app/models/url'
 
-
   def import(filename=File.dirname(__FILE__) + "/../db/data/urls")
     File.open(filename).each do |line|
       data = line.gsub(/http(s)*:\D\D\w+(.)\w+(.\w+)*/).each_with_index do |sample_urls, index|
