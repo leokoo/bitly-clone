@@ -40,18 +40,18 @@
 
 	<h2 class="page-header-headline flush-top">UNLEASH THE POWER OF THE LINK</h2>
 	<p class="page-header-description flush-bottom">Own, understand, and activate your best audience with Bitly. Learn more -></p>
-<h3>Listing the URLs</h3>
+<h3>Our Recent Links</h3>
 <table>
   <tr>
-    <th>Long URL</th>
+    <th>Original URL</th>
     <th>Shortened URL</th>
-    <th>Amount of clicks</th>
+    <th>Clicks</th>
     <th></th>
   </tr>
 <% @urls.each do |url| %>
 	<tr>
 		<td><%= url.long_url%></td>
-		<td><a href="<%= url.shortened_url %>"><%= url.shortened_url %></a><td>
+		<td><a href="<%= url.shortened_url %>"><%= "bit.ly/#{url.shortened_url}" %></a><td>
 		<td><%= url.counter %><td>
 	</tr>
 	<% end %>
